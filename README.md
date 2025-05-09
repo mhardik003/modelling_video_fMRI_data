@@ -8,7 +8,7 @@ This project investigates how well high‑level video features can explain—and
 * **Decode** fMRI → video embeddings
 * **Classify** which movie is being watched from fMRI alone
 
-The work builds on SRM‑aligned fMRI from 54 participants who viewed four 8–13 min films ( *Iteration* ,  *Defeat* ,  *Growth* ,  *Lemonade* ) and uses three state‑of‑the‑art video encoders (ViViT, ViT‑MAE, Video‑MAE).
+The work builds on SRM‑aligned fMRI from 44 participants who viewed four 8–13 min films (*Iteration* ,  *Defeat* ,  *Growth* ,  *Lemonade*) and uses three state‑of‑the‑art video encoders (ViViT, ViT‑MAE, Video‑MAE).
 
 ---
 
@@ -20,11 +20,11 @@ The work builds on SRM‑aligned fMRI from 54 participants who viewed four 8–1
 │   ├── pipeline.ipynb         # End‑to‑end encoding / decoding / classification
 │   ├── pipeline_.ipynb        # Voxel‑wise (per‑voxel) encoding variant
 │   ├── config.py              # Hyper‑parameters & paths
-│   ├── data_loader.py         # fMRI & embedding I/O helpers
-│   ├── models.py              # MLP / LSTM model definitions
-│   ├── train.py | main.py     # CLI entry‑points for grid / sweep runs
-│   └── preprocessing.py       # HRF convolution, z‑scoring, voxel selection
-├── stimuli_representations/   # Pre‑computed video embeddings (.npy per movie × encoder)
+│   ├── data_loader.py         
+│   ├── models.py              
+│   ├── train.py | main.py     
+│   └── preprocessing.py       
+├── stimuli_representations/   
 ├── visualizations/            # All result figures used in the report / slides
 ├── Final_Presentation.pdf
 ├── Report.pdf
@@ -33,7 +33,7 @@ The work builds on SRM‑aligned fMRI from 54 participants who viewed four 8–1
 
 > **Note** Pre‑aligned **brain representations** are not versioned here for size reasons.
 
-> Download them from README in the brain_representations directory and place the unzipped folder beside **stimuli_representations/**.
+> Download them from link in the README in the brain_representations directory and place the unzipped folder beside **stimuli_representations/**.
 
 ---
 
@@ -41,7 +41,7 @@ The work builds on SRM‑aligned fMRI from 54 participants who viewed four 8–1
 
 ```
 # 1. Put brain matrices where config expects them
-#    (see the note above)
+#    
 
 # 2. Launch Jupyter
 jupyter lab raw/pipeline.ipynb
@@ -50,19 +50,6 @@ jupyter lab raw/pipeline.ipynb
 The notebook runs end‑to‑end on a single GPU.
 
 For voxel‑wise encoding switch to **pipeline_.ipynb**.
-
-### **Command‑line execution**
-
-```
-# Standard encoding experiment (MLP, 1000 voxels)
-python raw/train.py --mode encode --voxels 1000 --movie iteration
-
-# Decoding experiment
-python raw/train.py --mode decode --encoder videomae
-
-# Four‑way movie classification (intra‑subject)
-python raw/main.py --mode classify --split intra
-```
 
 All arguments are documented in **config.py**.
 
