@@ -8,7 +8,7 @@ This project investigates how well high‑level video features can explain—and
 * **Decode** fMRI → video embeddings
 * **Classify** which movie is being watched from fMRI alone
 
-The work builds on SRM‑aligned fMRI from 54 participants who viewed four 8–13 min films ( *Iteration* ,  *Defeat* ,  *Growth* ,  *Lemonade* ) and uses three state‑of‑the‑art video encoders (ViViT, ViT‑MAE, Video‑MAE).**  **
+The work builds on SRM‑aligned fMRI from 54 participants who viewed four 8–13 min films ( *Iteration* ,  *Defeat* ,  *Growth* ,  *Lemonade* ) and uses three state‑of‑the‑art video encoders (ViViT, ViT‑MAE, Video‑MAE).
 
 ---
 
