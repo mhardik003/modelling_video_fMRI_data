@@ -47,7 +47,7 @@ The work builds on SRM‑aligned fMRI from 54 participants who viewed four 8–1
 jupyter lab raw/pipeline.ipynb
 ```
 
-The notebook runs end‑to‑end on a single GPU (≈8 GB VRAM for MLP models).
+The notebook runs end‑to‑end on a single GPU.
 
 For voxel‑wise encoding switch to **pipeline_.ipynb**.
 
