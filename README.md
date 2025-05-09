@@ -1,7 +1,3 @@
-Here’s a drop‑in **README.md** you can paste at the root of the repository.
-
----
-
 # **Modeling Brain Activity During Naturalistic Movie Watching**
 
 Linking fMRI  +  Video Embeddings
