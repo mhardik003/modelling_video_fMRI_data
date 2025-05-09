@@ -33,7 +33,7 @@ The work builds on SRM‑aligned fMRI from 54 participants who viewed four 8–1
 
 > **Note** Pre‑aligned **brain representations** are not versioned here for size reasons.
 
-> Download them from [here]() and place the unzipped folder beside **stimuli_representations/**.
+> Download them from README in the brain_representations directory and place the unzipped folder beside **stimuli_representations/**.
 
 ---
 
@@ -72,7 +72,6 @@ All arguments are documented in **config.py**.
 
 | **Component**           | **Location**              | **Details**                                     |
 | ----------------------------- | ------------------------------- | ----------------------------------------------------- |
-| **fMRI (SRM‑aligned)** | [Link]() | 1‑s TR; 54 subjects, 4 movies                        |
 | **Video embeddings**    | stimuli_representations/        | ViViT / ViT‑MAE / Video‑MAE; 8 fps → 1 Hz pooled |
 | **Visualisations**      | visualizations/                 | Correlation/R² curves, voxel maps, model comparisons |
 
