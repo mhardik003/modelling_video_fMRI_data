@@ -76,7 +76,7 @@ All arguments are documented in **config.py**.
 
 | **Component**           | **Location**              | **Details**                                     |
 | ----------------------------- | ------------------------------- | ----------------------------------------------------- |
-| **fMRI (SRM‑aligned)** | *<ONEDRIVE_LINK_PLACEHOLDER>* | 1‑s TR; 54 subjects, 4 movies                        |
+| **fMRI (SRM‑aligned)** | [Link]() | 1‑s TR; 54 subjects, 4 movies                        |
 | **Video embeddings**    | stimuli_representations/        | ViViT / ViT‑MAE / Video‑MAE; 8 fps → 1 Hz pooled |
 | **Visualisations**      | visualizations/                 | Correlation/R² curves, voxel maps, model comparisons |
 
@@ -112,7 +112,7 @@ If you use this codebase, please cite:
 ```
 @misc{mittal_bhole_2025_brain_movies,
   title        = {Modeling Brain Activity During Naturalistic Movie Watching Using Video Embeddings and fMRI},
-  author       = {Mittal, Hardik and Bhole, Gaurav},
+  author       = {Hardik Mittal and Gaurav Bhole},
   year         = {2025},
 }
 ```
