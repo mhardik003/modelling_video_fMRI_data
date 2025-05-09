@@ -28,7 +28,7 @@ The work builds on SRM‑aligned fMRI from 54 participants who viewed four 8–1
 ├── visualizations/            # All result figures used in the report / slides
 ├── Final_Presentation.pdf
 ├── Report.pdf
-└── README.md                  # ← you are here
+└── README.md                  
 ```
 
 > **Note** Pre‑aligned **brain representations** are not versioned here for size reasons.
