@@ -72,7 +72,7 @@ All arguments are documented in **config.py**.
 
 | **Component**           | **Location**              | **Details**                                     |
 | ----------------------------- | ------------------------------- | ----------------------------------------------------- |
-| **Video embeddings**    | stimuli_representations/        | ViViT / ViT‑MAE / Video‑MAE; 8 fps → 1 Hz pooled |
+| **SRM Aligned embeddings**    | stimuli_representations/        | ViViT / ViT‑MAE / Video‑MAE; 8 fps → 1 Hz pooled |
 | **Visualisations**      | visualizations/                 | Correlation/R² curves, voxel maps, model comparisons |
 
 Dataset courtesy of OpenNeuro **ds004516** (“Individual differences in neural event segmentation of continuous experiences”).
