@@ -86,7 +86,7 @@ Dataset courtesy of OpenNeuro **ds004516** (“Individual differences in neural 
 | ------------------------ | ------------------------------- | ------------------------------------ |
 | **Encoding**       | MLP, 1000 top‑variance voxels  | Pearson*r*≈ 0.30 on*Iteration* |
 | **Decoding**       | MLP, 10 k voxels, Video‑MAE   | Pearson*r*≈ 0.05                 |
-| **Classification** | Intra‑subject, 5‑layer linear | **99.8 %**accuracy                  |
+| **Classification** | Intra‑subject, 5‑layer linear | 99.8 % accuracy                  |
 |                          | Inter‑subject                  | 29.9 % (vs. 25 % chance)           |
 
 See **Report.pdf** for the full analysis and **Final_Presentation.pdf** for slide‑level summaries.
